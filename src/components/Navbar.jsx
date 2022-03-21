@@ -3,15 +3,15 @@ import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <header className="navigation py-3 mb-4 border-bottom">
       <a
         href="/"
-        className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+        className="text-dark pb-2 text-center text-decoration-none"
       >
         <span className="fs-4 logo hfx-waterfall">One Free Pizza</span>
       </a>
 
-      <ul className="nav nav-pills">
+      <ul className="nav nav-list nav-pills">
         <li className="nav-item">
           <NavLink to="/" className="nav-link hfx-shimmy" aria-current="page">
             Home

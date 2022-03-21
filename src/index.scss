@@ -26,6 +26,21 @@ $body-color: #111;
   }
 }
 
+.navigation {
+  display: flex;
+  flex-direction: column;
+
+  .logo {
+    padding-bottom: 10px;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
 .error {
   height: 60vh;
 
@@ -35,8 +50,6 @@ $body-color: #111;
 }
 
 .orders {
-  height: 70vh;
-
   .delete {
     color: #ff0000;
     &:hover {
