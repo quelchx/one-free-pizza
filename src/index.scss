@@ -1,0 +1,50 @@
+// importing my own hover effect library
+@import "../node_modules/hfx-css/dist/css/hfx.css";
+
+// bootstrap overrides
+$primary: #b6240d;
+$secondary: #3a9c19;
+$body-color: #111;
+
+.main-page {
+  padding: 50px 10px;
+}
+
+.active,
+.logo {
+  font-weight: bold;
+}
+
+.loader {
+  padding: 50px 0px;
+}
+
+.submit {
+  color: #f8f1f1 !important;
+  &:hover {
+    background-color: #24660e !important;
+  }
+}
+
+.error {
+  height: 60vh;
+
+  .warning {
+    padding-top: 50px;
+  }
+}
+
+.orders {
+  height: 70vh;
+
+  .delete {
+    color: #ff0000;
+    &:hover {
+      color: #8f0000;
+      cursor: pointer;
+    }
+  }
+}
+
+// importing bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
